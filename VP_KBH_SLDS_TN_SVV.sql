@@ -4,7 +4,7 @@ CREATE OR REPLACE FUNCTION "VP_KBH_SLDS_TN_SVV" (
  p_tt in number
 )RETURN SYS_REFCURSOR
 IS
-cur  SYS_REFCURSOR;
+cur  SYS_REFCURSOR;aaaaa
 BEGIN
  if substr(p_dvtt, 1,2) != '79' then
   if p_tt = 0 then
